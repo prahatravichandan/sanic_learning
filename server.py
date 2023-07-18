@@ -5,4 +5,4 @@ app = Sanic("MyHelloWorldApp")
 
 @app.get("/")
 async def hello_world(request):
-    return text("Hello, world.")
+    return text("Hello, world. this is sanic")
